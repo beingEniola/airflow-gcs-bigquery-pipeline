@@ -62,7 +62,7 @@ To create these resources
 ### Airflow initialization and configuration
 After creating the cloud resources, I initialized Apache Airflow and configured the DAG.
 
-- Return to project root `d ..`
+- Return to project root `cd ..`
 - Initialize Airflow `astro dev init`
 - Configure the DAG to automate the ingestion workflow. The DAG consists of two tasks:
     - upload_csv_file_to_gcs - Uses `LocalFilesystemToGCSOperator` to upload CSV files from the local file system to Google Cloud Storage.
